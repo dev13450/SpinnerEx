@@ -9,10 +9,10 @@
         <item>Five</item>
     </string-array>
     <string-array name="letters">
-        <item>A</item>
-        <item>B</item>
-        <item>C</item>
-        <item>D</item>
-        <item>E</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
     </string-array>
 </resources>
