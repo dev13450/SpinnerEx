@@ -2,17 +2,19 @@
     <string name="app_name">Spinner Ex</string>
 
     <string-array name="departure">
-        <item>One</item>
-        <item>Two</item>
-        <item>Three</item>
-        <item>Four</item>
-        <item>Five</item>
+        <item>Select A Departure</item>
+        <item>Phoenix, Arizona</item>
+        <item>London, Britain</item>
+        <item>Paris, France</item>
+        <item>New York City, New York</item>
+        <item>San Diego, California</item>
     </string-array>
     <string-array name="arrival">
-        <item>V</item>
-        <item>W</item>
-        <item>X</item>
-        <item>Y</item>
-        <item>Z</item>
+        <item>Select A Arrival</item>
+        <item>Phoenix, Arizona</item>
+        <item>London, Britain</item>
+        <item>Paris, France</item>
+        <item>New York City, New York</item>
+        <item>San Diego, California</item>
     </string-array>
 </resources>
