@@ -1,14 +1,14 @@
 <resources>
     <string name="app_name">Spinner Ex</string>
 
-    <string-array name="numbers">
+    <string-array name="departure">
         <item>One</item>
         <item>Two</item>
         <item>Three</item>
         <item>Four</item>
         <item>Five</item>
     </string-array>
-    <string-array name="letters">
+    <string-array name="arrival">
         <item>V</item>
         <item>W</item>
         <item>X</item>
