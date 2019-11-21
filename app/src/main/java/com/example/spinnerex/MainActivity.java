@@ -17,13 +17,13 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         setContentView(R.layout.activity_main);
 
         Spinner spinner = findViewById(R.id.spinner1);
-        ArrayAdapter<CharSequence> adapter =  ArrayAdapter.createFromResource(this,R.array.numbers, android.R.layout.simple_spinner_item);
+        ArrayAdapter<CharSequence> adapter =  ArrayAdapter.createFromResource(this,R.array.departure, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);
         spinner.setOnItemSelectedListener(this);
 
         Spinner spinnerA = findViewById(R.id.spinner);
-        ArrayAdapter<CharSequence> adapterA =  ArrayAdapter.createFromResource(this,R.array.letters, android.R.layout.simple_spinner_item);
+        ArrayAdapter<CharSequence> adapterA =  ArrayAdapter.createFromResource(this,R.array.arrival, android.R.layout.simple_spinner_item);
         adapterA.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinnerA.setAdapter(adapterA);
         spinnerA.setOnItemSelectedListener(this);
