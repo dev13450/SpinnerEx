@@ -37,8 +37,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
         String Text = spinner.getSelectedItem().toString();
 
-        price = parseInt(editText.toString()) * 50;
-        textView.setText(price);
+        /*price = parseInt(editText.toString()) * 50;
+        textView.setText(price);*/
     }
 
     @Override
