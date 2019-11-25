@@ -31,7 +31,9 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         spinnerA.setAdapter(adapterA);
         spinnerA.setOnItemSelectedListener(this);
 
-        if (spinner.getSelectedItem().toString() == "London, Britain") {
+        String Text = spinner.getSelectedItem().toString();
+
+        if (Text == "London, Britain") {
             textView.setText("$200");
         }else{
             textView.setText("$100");
