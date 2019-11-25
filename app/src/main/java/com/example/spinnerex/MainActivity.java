@@ -9,6 +9,8 @@ import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.Toast;
 import android.widget.TextView;
+import android.widget.EditText;
+import static java.lang.Integer.parseInt;
 
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
@@ -17,6 +19,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         TextView textView = findViewById(R.id.textView);
+        EditText editText = findViewById(R.id.editText);
+        int price;
         //hello
 
         Spinner spinner = findViewById(R.id.spinner1);
@@ -33,11 +37,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
         String Text = spinner.getSelectedItem().toString();
 
-        if (Text == "London, Britain") {
-            textView.setText("$200");
-        }else{
-            textView.setText("$100");
-        }
+        price = parseInt(editText.toString()) * 50;
+        textView.setText(price);
     }
 
     @Override
